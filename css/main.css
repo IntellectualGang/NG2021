@@ -1,3 +1,4 @@
+
 html {
     font-family: 'Pacifico', cursive;
     font-size: 1rem;
@@ -13,15 +14,39 @@ html {
     color: #f2f3f4;
 }
 
+.invite-text {
+    text-align: center;
+    font-size: 1.4rem;
+    color:black;
+    background: url(../img/paperBG.jpg);
+    border-radius: 10px;
+}
+
+.receiver-name {
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.text-adress {
+    color: red;
+}
+
+.text-date {
+    color: blue;
+}
+
+.text-time {
+    color: forestgreen;
+}
+
 .main-div__text {
     text-align: center;
     max-width: 80%;
-    /* letter-spacing: 1px; */
-    
 }
 
 .img__invite {
     max-width: 96%;
+    display: none;
 }
 
 .img__prog {
@@ -41,6 +66,14 @@ html {
     .main-div {
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    .invite-text {
+        display:none;
+    }
+
+    .img__invite {
+        display: inline-block;
     }
 
 }
