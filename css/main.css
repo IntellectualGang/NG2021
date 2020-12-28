@@ -18,8 +18,9 @@ html {
     text-align: center;
     font-size: 1.4rem;
     color:black;
-    background: url(../img/paperBg.jpg);
+    background: url(../img/paperBG.jpg);
     border-radius: 10px;
+    max-width: 96%;
 }
 
 .receiver-name {
@@ -46,7 +47,7 @@ html {
 
 .img__invite {
     max-width: 96%;
-    display: none;
+    margin-bottom: 15px;
 }
 
 .img__prog {
@@ -70,10 +71,6 @@ html {
 
     .invite-text {
         display:none;
-    }
-
-    .img__invite {
-        display: inline-block;
     }
 
 }
